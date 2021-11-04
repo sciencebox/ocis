@@ -15,7 +15,7 @@ else
   docker build --build-arg OCIS_IMAGE_VERSION=:$OCIS_IMAGE_VERSION -t $TAG .
 fi
 
-## # Push the image to the GitLab registry
-## docker login gitlab-registry.cern.ch
-## docker push $TAG
+# Push the image to the GitLab registry
+docker login gitlab-registry.cern.ch
+docker push $TAG
 
