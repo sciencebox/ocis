@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Tag name
-BASE_TAG='gitlab-registry.cern.ch/sciencebox/docker-images/ocis-idp'
+BASE_TAG='gitlab-registry.cern.ch/sciencebox/docker-images/ocis'
 
 # Specify cvmfs version to be installed (or comment out to use the latest)
 OCIS_IMAGE_VERSION='1.11.0'

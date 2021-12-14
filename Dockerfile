@@ -6,7 +6,7 @@ MAINTAINER Enrico Bocchi <enrico.bocchi@cern.ch>
 # Become root to modify the container with super powers
 USER root
 
-# Install supervisord to manage all the ocis extensions required by the IDP
+# Install supervisord to run multiple ocis extensions in the same container
 RUN apk add supervisor
 
 # Override entrypoint and cmd set by ownCloud
